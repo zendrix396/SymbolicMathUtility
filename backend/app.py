@@ -3,7 +3,7 @@ from flask_cors import CORS
 import sympy as sp
 import os
 app = Flask(__name__, static_folder='static')
-CORS(app)  # Enable CORS for all routes
+CORS(app)
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
