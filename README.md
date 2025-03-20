@@ -33,3 +33,36 @@ Symbolic Math Utility is a web application that allows users to perform symbolic
 ```bash
 git clone https://github.com/YusiferZendric/SymbolicMathUtility.git
 cd SymbolicMathUtility
+```
+
+### Frontend Setup
+```bash
+cd frontend
+npm install
+```
+
+### Backend Setup
+```bash
+cd backend
+python app.py
+```
+
+### Running the Frontend
+```bash
+cd frontend
+npm start
+```
+
+### Access the Application
+Visit http://localhost:3000 in your browser.
+
+### Usage
+-- Enter the mathematical expression in the input field.
+-- Select the operation (Derivative, Integral, or Partial Derivative).
+-- If selecting partial derivative, specify the variable.
+-- Click "Compute" to get the result.
+-- The result will be displayed along with the formatted mathematical notation.
+Screenshots
+
+# Contributing
+Feel free to open issues or submit PRs to improve the functionality or UI.
