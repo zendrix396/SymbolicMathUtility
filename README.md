@@ -57,12 +57,11 @@ npm start
 Visit http://localhost:3000 in your browser.
 
 ### Usage
--- Enter the mathematical expression in the input field.
--- Select the operation (Derivative, Integral, or Partial Derivative).
--- If selecting partial derivative, specify the variable.
--- Click "Compute" to get the result.
--- The result will be displayed along with the formatted mathematical notation.
-Screenshots
+- Enter the mathematical expression in the input field.  
+- Select the operation (Derivative, Integral, or Partial Derivative).  
+- If selecting a partial derivative, specify the variable.  
+- Click **"Compute"** to get the result.  
+- The result will be displayed along with the formatted mathematical notation.  
 
-# Contributing
+### Contributing
 Feel free to open issues or submit PRs to improve the functionality or UI.
